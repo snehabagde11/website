@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        /* Container for the cards */
+        .card-container {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        /* Basic styles for cards */
+        .card {
+            width: 500px;
+            border: 1px solid #ccc;                             
+            margin: 20px;
+            padding: 10px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            transition: transform 0.2s;
+        }
+
+        /* Card hover effect */
+        .card:hover {
+            transform: scale(1.05);
+        }
+
+        /* Style for card images */
+        .card img {
+            width: 100%;
+            height: auto;
+        }
+
+        /* Style for card title and description */
+        .card-content {
+            text-align: center;
+        }
+
+        /* Style for buttons */
+        .card-button {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            background-color: #007BFF;
+            color: #fff;
+            text-align: center;
+            text-decoration: none;
+            border: none;
+            cursor: pointer;
+        }
+
+        /* Button hover effect */
+        .card-button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="card-container">
+        <div class="card">
+            <img src="./media/Screenshot 2023-10-03 141032.png" alt="Image 1">
+            <div class="card-content">
+                <h2>AI Counselling </h2>
+                <p>AI-assisted counseling, involves the use of artificial intelligence technology to provide guidance,
+                    support, and assistance to individuals in a counseling or therapeutic context</p>
+                <a href="#" class="card-button">Learn More</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="./media/Screenshot 2023-10-03 141145.png" alt="Image 2">
+            <div class="card-content">
+                <h2>Human Counselling </h2>
+                <p>The primary goal of counseling is to help individuals improve their well-being, cope with stress, develop problem-solving skills, and make positive changes in their lives</p>
+                <a href="#" class="card-button">Learn More</a>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
